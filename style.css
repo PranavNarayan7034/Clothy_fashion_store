@@ -134,11 +134,97 @@
     margin:0 80px;
 }
 .prod{
-    border: 2px solid;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
     width: 25%;
     margin-right:20px;
-    height: 300px;
 }
+.image{
+    background-color: rgba(0, 0, 255, 0.229);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.image ion-icon{
+    position: absolute;
+    top: 5px;
+    left: 90%;
+    height: 20px;
+    width: 20px;
+}
+
 .prod_img{
-    height: 100px;
+    height: 180px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.prod_img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.details p{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info ion-icon{
+    height: 25px;
+    width: 25px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn button{
+    padding: 8px 30px;
+    font-size: 18px;
+    font-family: poppins;
+    background-color: transparent;
+    border: 3px solid rgba(0, 0, 0, 0.419);
+    border-radius: 10px;
+    font-weight: 500;
+}
+.btn button:hover{
+    background-color: rgba(255, 0, 0, 0.577);
+    color: white;
+}
+.products{
+    margin-top: 50px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.content{
+    width: 40%;
+}
+.content h1{
+    font-family: roboto slab;
+    font-size: 60px;
+    word-spacing: 10px ;
+    letter-spacing: 10px;
+}
+.content h1 span{
+    font-size: 20px;
+    letter-spacing: 3px;
+}   
+.content p{
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: poppins;
+}
+
+
+
+.model{
+    width: 40%;
 }
