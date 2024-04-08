@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
     text-decoration: none;}
+
+/* ---navbar styles------- */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -53,6 +56,9 @@
 .navlinks a:hover::after{
     width: 100%;
 }
+
+/* -- intro styles-------- */
+
 .intro{
     display: flex;
     justify-content: space-between;
@@ -107,6 +113,44 @@
 .intro{
     /* background-color: yellow; */
     height: 400px;
+}
+
+/* --session styles------ */
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px;
+    font-family: poppins;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.fh3{
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+.sh3{
+    padding: 3px 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px 20px 80px;
+}
+.img{
+    height: 230px;
+}
+.offer{
+    border: 3px solid black;
+    padding: 80px 100px;
 }
 
 .head{
@@ -205,7 +249,7 @@
     margin: 50px 80px;
 }
 .content{
-    width: 40%;
+    width: 50%;
 }
 .content h1{
     font-family: roboto slab;
@@ -224,7 +268,95 @@
 }
 
 
+.one a, .two a{
+    border: 2px solid black;
+    padding: 4px 9px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: poppins;
+    margin-right: 10px;
+}
+.one,.two{
+    display: flex;
+    align-items: center;
+}
+.instructions{
+    display: flex;
+    justify-content: space-between;
+}
+.inst_cnt{
+    font-weight: 600;
+}
+.inst_cnt span{
+    font-weight: 300;
+    font-size: 15px;
+}
 
 .model{
     width: 40%;
+}
+
+.socials{
+    text-align: center;
+}
+.socials h1{
+    font-family: poppins;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-shadow: 3px 3px 10px;
+}
+.icons a ion-icon{
+    height: 30px;
+    width: 30px;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.footer{
+    background-color: aqua;
+    display: flex;
+    margin: 50px 0px;
+    padding-bottom: 50px;}
+.box{
+    width: 20%;
+    text-align: center;}
+.box_e{
+    width: 40%;
+    text-align: center;}
+.box1 h2{
+    font-family: Titillium Web;
+    font-weight:750;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;}
+.box1 p{
+    width: 70%;
+    font-family: poppins;
+    font-size: 14px;}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-family: poppins;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.links{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.links a{
+    font-family: poppins;
+    font-size: 14px;
+    color: black;
 }
